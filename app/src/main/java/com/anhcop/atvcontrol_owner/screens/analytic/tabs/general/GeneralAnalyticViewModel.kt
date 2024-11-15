@@ -7,10 +7,8 @@ import androidx.lifecycle.viewModelScope
 import com.anhcop.analytic.AnalyticDocument
 import com.anhcop.analytic.AnalyticService
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.joinAll
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 @HiltViewModel

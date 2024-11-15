@@ -34,10 +34,7 @@ import com.anhcop.atvcontrol_owner.screens.analytic.tabs.detailed.DetailedAnalyt
 import com.anhcop.atvcontrol_owner.screens.analytic.tabs.detailed.DetailedAnalyticViewModel
 import com.anhcop.atvcontrol_owner.screens.analytic.tabs.general.GeneralAnalyticTab
 import com.anhcop.atvcontrol_owner.screens.analytic.tabs.general.GeneralAnalyticViewModel
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.withContext
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -10,10 +10,8 @@ import com.anhcop.vehicle_management.VehicleRepository
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 
 @HiltViewModel(assistedFactory = VehicleEditorViewModelFactory::class)
 class VehicleEditorViewModel @AssistedInject constructor(

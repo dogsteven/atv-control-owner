@@ -1,7 +1,6 @@
 package com.anhcop.atvcontrol_owner.screens.vehicle_detail
 
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
@@ -9,18 +8,13 @@ import androidx.lifecycle.viewModelScope
 import com.anhcop.vehicle_management.Vehicle
 import com.anhcop.vehicle_management.VehicleEvent
 import com.anhcop.vehicle_management.VehicleRepository
-import com.google.firebase.Timestamp
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
-import java.time.LocalDate
-import java.time.ZoneId
 
 @HiltViewModel(assistedFactory = VehicleDetailViewModelFactory::class)
 class VehicleDetailViewModel @AssistedInject constructor(

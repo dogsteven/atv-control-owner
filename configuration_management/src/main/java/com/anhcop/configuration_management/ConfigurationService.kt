@@ -3,8 +3,6 @@ package com.anhcop.configuration_management
 import com.google.firebase.firestore.CollectionReference
 import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.snapshots
-import kotlinx.coroutines.flow.mapNotNull
 import kotlinx.coroutines.tasks.await
 
 class ConfigurationService(private val firestoreFactory: () -> FirebaseFirestore) {
