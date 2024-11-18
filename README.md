@@ -14,3 +14,8 @@ Our client doesn't want to pay any cost for the infrastructure, so we decided to
 Since there's no backend, we wrote the domain logic into the client application.
 The Firestore SDK has an amazing offline cache feature, so we didn't need to write any caching logic, helping us save a lot of time.
 Finally, the `AndroidID` is used to manage access, so only the employees' phones can use the application.
+
+### ATV Control - Owner
+
+`ATV Control - Employee` is an Android application for the owner for managing ATVs, employees and configuration.
+It's just a typical CRUD application with an analytic screen.
